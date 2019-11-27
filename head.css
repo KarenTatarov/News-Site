@@ -1,0 +1,104 @@
+.header {
+	background-color: #fff;
+}
+
+.parent-1 {
+	color: #fff;
+	background-color: #00122f;
+	padding: 16px 0;
+}
+.parent-1 a {
+	text-decoration: underline;
+}
+
+.title {
+	float: left;
+}
+
+.date {
+	float: right;
+}
+
+.parent-2 {
+	padding: 40px 0 31px 0;
+}
+
+.left {
+	float: left;
+}
+
+.town {
+	margin-left: 58px;
+}
+
+.city {
+	padding-right: 5px;
+	color: #448ccb;
+	border-bottom: 1px dashed #448ccb;
+}
+		
+.arrow {
+	width: 9px;
+	height: 5px;
+
+	background: url("images/down-arrow.png") no-repeat;
+	background-size: cover;
+}
+
+.right {
+	float: right;
+}
+
+.cloudy {
+	margin-right: 36px;
+	padding-left: 37px;
+
+	color: #91919f;
+	background: url("images/cloudy.png") no-repeat;
+	background-size: contain;
+}
+
+.form {
+	position: relative;
+}
+
+.search {
+	padding: 0 20px;
+
+	width: 320px;
+	height: 45px;
+	font-size: 14px;
+
+	background-color: #f3f3f3;
+	border: 0;
+	border-radius: 30px;	
+}
+
+.button {
+	position: absolute;
+	top: 15px;
+	right: 6px;
+
+	width: 31px;
+	height: 31px;
+
+	background: url("images/search.png") no-repeat;
+	border: 0;
+
+	cursor: pointer;
+}
+
+.nav-top {
+	padding-top: 32px;
+}
+
+.nav-top li::after {
+	content: "/";
+	margin-right: 15px;
+	margin-left: 15px;
+	color: #91919f;
+}
+
+.nav-top li:last-child::after {
+	content: "";
+}

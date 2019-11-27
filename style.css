@@ -1,0 +1,110 @@
+/*======Вычитает из ширины документа значения padding и border========*/
+html {
+    box-sizing: border-box;
+}
+/*======Все элементы наследуют значение box-sizing у html============*/
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+/*=====Задает содержимому сайта минимальную ширину, делает нулевые отступы,
+задает цвет фона, семейство шрифтов, размер шрифта, высоту строк и цвет текста====*/
+body {
+    min-width: 1340px;
+    margin: 0;
+
+    background-color: #f9f9f9;
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.429;
+    color: black;
+    letter-spacing: -0.02em;
+    word-wrap: break-word;
+}
+/*=====Не позволяет появляться скроллам при запуске модальных окон=====*/
+body.modal-active {
+    overflow: hidden;
+}
+/*====Задает максимальную ширину всем картинкам====*/
+img {
+    max-width: 100%;
+}
+/*=======Убирает стандартное подчеркивание у всех ссылок, делает их цвет наследуемым
+у родителя====*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*=====Убирает маркировку у списков, а также убирает внутренние и внешние отступы====*/
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*======Убирает внутренние и внешние отступы у абзацев=====*/
+p {
+    padding: 0;
+    margin: 0;
+}
+/*========Убирает внешние отступы у заголовков 1-ого уровня, задает размер и толщину шрифта===*/
+h1 {
+    margin: 0;
+
+    font-size: 16px;
+    font-weight: normal;
+}
+/*========Убирает внутренние и внешние отступы у заголовков 2-ого уровня, задает размер шрифта===*/
+h2 {
+    margin: 0;
+    padding: 0;
+
+    font-size: 20px;
+}
+/*========Убирает внутренние и внешние отступы у заголовков 3-ого уровня, задает размер и толщину шрифта===*/
+h3 {
+    margin: 0;
+    padding: 0;
+
+    font-size: 14px;
+    font-weight: normal;
+}
+/*=====Скрывает заголовок от пользователя, но не для поисковых систем и скринридеров=====*/
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+/*=======Создает фикс для содержимого после float, чтобы не уезжал контент=====*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*=====Создает контейнер-оболочку для всего содержимого, чтобы его отцентрировать=====*/
+.fixed-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+/*======Общий класс для создания строчных блоков=====*/
+.item {
+	display: inline-block;
+	vertical-align: middle;
+}
+/*======Звтемнение для фотографий=======*/
+.top-news:before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.45);
+	z-index: 0;
+}

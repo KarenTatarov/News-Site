@@ -1,0 +1,186 @@
+.main {
+	padding-top: 20px;
+	background: url("images/central-bg-top.png") repeat-x;
+}
+
+.column-left {
+	margin-bottom: 20px;
+		
+	float: left;
+	width: 250px;
+	font-size: 14px;
+		
+	background-color: #fff;
+}
+		
+.news-header {
+	padding: 22px 0 18px 18px;
+	margin-bottom: 26px;
+			
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.news-item {
+	padding: 8px 18px 0 18px;
+	margin-bottom: 18px;
+}
+
+.text {
+	letter-spacing: 0.025em;
+}
+
+.news-item-text {
+	margin-bottom: 10px;	
+}
+
+.news-item-props {
+	font-size: 12px;
+}
+
+.news-item-props a {
+	color: #91919f;
+}
+
+.news-item-container {
+	float: right;
+}
+
+.news-item-time {
+	margin-right: 20px;
+	padding-left: 15px;
+
+	background: url("images/icon-time.png") no-repeat left center;
+}
+
+.news-item-comments {
+	margin-right: 25px;
+	padding-left: 15px;
+
+	background: url("images/icon-comments.png") no-repeat left center;
+}
+
+.all-news {
+	padding-top: 24px;
+	margin-left: 38px;
+	margin-bottom: 25px;
+}
+
+.news-button {
+	padding: 14px 48px;
+
+	font-size: 14px;
+	color: #448ccb;
+
+	background-color: #fff;
+	border: 1px solid #448ccb;
+	border-radius: 30px;
+
+	white-space: nowrap;
+}
+
+.column-center {
+	margin-bottom: 20px;
+	margin-left: 20px;
+
+	float: left;
+	width: 460px;
+
+	font-size: 12px;
+}
+
+.special-news{
+	margin-bottom: 18px;
+	position: relative;
+
+	float: left;
+
+	color: #fff;
+	font-size: 12px;
+}
+
+.special-news-text {
+	position: absolute;
+	bottom: 45px;
+	left: 20px;		
+}
+
+.special-news-text h2  {
+	padding-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+	font-size: 30px;
+}
+
+.special-news-text p {
+	padding-top: 25px;
+	font-size: 14px;
+}
+
+.special-news-date {
+	margin-right: 20px;
+}
+
+.special-news-time{
+	padding-left: 12px;
+	background: url("images/news-time.png") no-repeat left center;
+}
+
+.block-news {
+	padding-top: 18px;
+}
+
+.news {
+	margin-bottom: 16px;
+	float: left;
+	max-width: 220px;	
+}
+
+.news img {
+	height: 142px;
+	width: 220px;
+}
+
+.news h3 {
+	padding-top: 5px;
+	margin-bottom: 12px;
+
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.news:nth-child(2n) {
+	margin-right: 20px;
+}
+
+.news-title {
+	padding-right: 20px;
+}
+
+.block-special-news {
+	margin-bottom: 34px;
+}
+		
+.main-special-news {
+	max-width: 588px;
+}
+
+.all-special-news {
+	float: right;
+	background-color: #fff;
+	width: 412px;
+}
+			
+.all-special-news .news-item-container {
+	float: none;
+	margin-left: 12px;
+}
+
+.all-special-news h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: -5px;
+}
+
+.all-special-news:last-child {
+	padding-bottom: 5px;
+}
