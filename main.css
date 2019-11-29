@@ -84,11 +84,19 @@
 }
 
 .currency {
-	text-align: center;
+	margin-left: 18px;
+	margin-bottom: 20px;
 }
 
 .usd {
-	background-image: url("images/usd.png") no-repeat;
+	padding-left: 35px;
+	background: url("images/usd.png") no-repeat left center;
+	margin-right: 50px;
+}
+
+.euro {
+	padding-left: 35px;
+	background: url("images/euro.png") no-repeat left center;
 }
 
 .column-center {
