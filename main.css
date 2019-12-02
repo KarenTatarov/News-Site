@@ -78,6 +78,28 @@
 	white-space: nowrap;
 }
 
+.currency-header {
+	padding: 22px 0 18px 18px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.currency {
+	margin-left: 18px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.usd {
+	padding-left: 35px;
+	background: url("images/usd.png") no-repeat left center;
+	margin-bottom: 10px;
+}
+
+.euro {
+	padding-left: 35px;
+	background: url("images/euro.png") no-repeat left center;
+}
+
 .column-center {
 	margin-bottom: 20px;
 	margin-left: 20px;
